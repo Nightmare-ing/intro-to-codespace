@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/wreath.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A wreath of flowers on a desk";
 
 /**
  * Project list
@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "The RISC-V CPU I created in CS61C 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A CPU based on RISC-V, only implemented the integer instructions. It can run a subset of the RISC-V instruction set. With a robust test to ensure the correctness of the CPU.",
+    url: "https://github.com/Nightmare-ing/CS61C-fa20-proj3",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Neural Network based on RISC-V assmebly language🌟",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A neural network that can recognize handwritten digits. The neural network is implemented in RISC-V assembly language.",
+    url: "https://github.com/Nightmare-ing/CS61C-fa20-proj2",
   },
   {
     title: "My Resume Site",
